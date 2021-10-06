@@ -23,7 +23,6 @@ const App = () => {
   )
 
   useEffect(() => {
-    // let fetching = false
     const onScroll = async (event) => {
       const { scrollHeight, scrollTop, clientHeight } = event.target.scrollingElement
 
